@@ -1,6 +1,8 @@
 language: node_js
 node_js: stable
 
+dist：Trusty
+
 cache:
   directories:
     - node_modules
@@ -26,4 +28,4 @@ branches:
     - origin
 env:
  global:
-   - GH_REF: https://github.com/zpf124/zpf124.github.io.git
+   - GH_REF: github.com/zpf124/zpf124.github.io.git
