@@ -23,7 +23,7 @@ after_script:
 
 branches:
   only:
-    - master
+    - origin
 env:
  global:
    - GH_REF: https://github.com/zpf124/zpf124.github.io.git
