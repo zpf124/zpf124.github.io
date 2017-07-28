@@ -1,7 +1,7 @@
 language: node_js
 node_js: stable
 
-dist：Trusty
+dist: Trusty
 
 cache:
   directories:
