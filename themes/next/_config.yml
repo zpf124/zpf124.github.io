@@ -38,10 +38,10 @@ seo: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories
-  #about: /about
   archives: /archives
+  categories: /categories
   tags: /tags
+  #about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -224,7 +224,7 @@ auto_excerpt:
 
 # Post meta display settings
 post_meta:
-  item_text: true
+  item_text: false
   created_at: true
   updated_at: false
   categories: true
@@ -232,7 +232,7 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
-  item_text: true
+  item_text: false
   wordcount: false
   min2read: false
 
@@ -334,7 +334,7 @@ changyan:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: GGQ1WmI7rON4cf9dTw5hwRQaCzJDBhazJerwKE9uSAg
 
 # Google Analytics
 google_analytics: 103603366-1
@@ -443,7 +443,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
@@ -533,7 +533,6 @@ vendors:
   #three
   three:
   three_waves:
-  three_sprites:
 
 # Assets
 css: css

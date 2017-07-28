@@ -78,3 +78,10 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# search engine
+algolia:
+  applicationID: 'NANT41BXRT'
+  apiKey: '759b4837be898cd13350e4bc983220f3'
+  indexName: 'zfly.me'
+  chunkSize: 5000
