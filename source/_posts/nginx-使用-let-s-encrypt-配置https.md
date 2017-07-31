@@ -1,5 +1,6 @@
 ---
 title: nginx 使用 let's encrypt 配置https
+permalink: use-letencrypt-to-configure-https 
 date: 2016-04-02 23:44:34
 categories: 
  - Operations

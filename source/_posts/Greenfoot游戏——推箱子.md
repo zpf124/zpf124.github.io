@@ -1,5 +1,6 @@
 ---
 title: Greenfoot游戏——推箱子
+permalink: greenfoot-game-sokoban
 date: 2016-01-09 12:03:15
 categories: 
  - Development
@@ -173,5 +174,5 @@ static {
 [1]: http://download.csdn.net/download/zpf124/9396945 "素材来源的html5游戏"
 [2]: http://www.greenfoot.org/ "官方网站"
 [3]: http://www.greenfoot.org/files/translations/Chinese/API/ "中文API"
-[4]: http://download.csdn.net/download/zpf124/9396945 "推箱子源代码"
+[4]: /assets/files/Sokoban.gfar "推箱子源代码"
 [5]: /assets/images/20160102223628753.png "项目基本结构"
